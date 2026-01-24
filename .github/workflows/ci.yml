@@ -15,7 +15,7 @@ jobs:
         working-directory: ./backend
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Install uv
         uses: astral-sh/setup-uv@v5
@@ -52,7 +52,7 @@ jobs:
         working-directory: ./frontend
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Install pnpm
         uses: pnpm/action-setup@v2
@@ -84,7 +84,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [backend-quality, frontend-build]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Download frontend build
         uses: actions/download-artifact@v4
