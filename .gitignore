@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+
+# Environments
+.venv/
+venv/
+env/
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Build / Dist
+build/
+dist/
+*.egg-info/
+
+# Env vars
+.env
+.env.*
+
+# Generated images
+backend/static/generated/
+
+# SQLite journal/temp files (keep main DB under data/)
+*.db-journal
+*.sqlite-journal
+
+# Logs
+logs/
+*.log
