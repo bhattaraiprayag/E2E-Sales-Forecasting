@@ -1,6 +1,6 @@
 # Sales Forecasting System — Production Ready
 
-I built a complete, production‑ready time‑series forecasting system with:
+This project implements a complete, production‑ready time‑series forecasting system featuring:
 - A FastAPI backend (Prophet, SARIMAX, LightGBM)
 - A modern React + Vite frontend dashboard
 - SQLite persistence

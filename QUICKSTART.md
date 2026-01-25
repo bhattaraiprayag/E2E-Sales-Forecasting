@@ -1,6 +1,6 @@
 # Quickstart Guide
 
-This guide will help you set up the E2E Sales Forecasting system on your local machine.
+This guide provides instructions for setting up the E2E Sales Forecasting system on a local machine.
 
 ## Prerequisites
 

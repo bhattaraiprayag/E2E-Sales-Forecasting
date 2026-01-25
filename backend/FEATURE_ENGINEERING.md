@@ -41,7 +41,7 @@ LightGBM operates on a rich, tabular feature set capturing temporal dynamics and
 - Non-numeric or redundant identifiers: `day_of_week`, `month_of_year`, `day_of_month`, `day_of_week_num`, `week_of_year`, `quarter` (raw) are dropped after encodings are added.
 
 ### Forecasting Strategy
-Recursive forecasting on Δlog(y): we iteratively roll the history forward, predicting next-step differences, accumulating them onto the last log(sales), and exponentiating back to the original scale via `expm1`.
+Recursive forecasting on Δlog(y): the process iteratively rolls the history forward, predicting next-step differences, accumulating them onto the last log(sales), and exponentiating back to the original scale via `expm1`.
 
 ## SARIMAX (Classical)
 - Endogenous: `daily_sales`

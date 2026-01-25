@@ -1,6 +1,6 @@
 # Contributing
 
-Welcome! We appreciate your interest in contributing.
+Welcome! Contributions are highly appreciated.
 
 ## Development Setup
 
@@ -25,7 +25,7 @@ Welcome! We appreciate your interest in contributing.
 
 ## Quality Standards
 
-We enforce strict quality gates:
+The project enforces strict quality gates:
 *   **Linting**: `ruff` (Python), `eslint` (JS/TS).
 *   **Formatting**: `ruff format` (Python), `prettier` (JS/TS).
 *   **Type Checking**: `mypy` (Python), `tsc` (TS).
