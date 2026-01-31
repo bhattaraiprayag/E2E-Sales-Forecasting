@@ -1,0 +1,12 @@
+.git
+.venv
+.env
+backend/.venv
+backend/__pycache__
+frontend/node_modules
+frontend/dist
+dockerlogs.txt
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
