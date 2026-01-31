@@ -165,9 +165,9 @@ def forecast_csv(model: str, horizon: int = 30) -> StreamingResponse:
     stream = io.StringIO()
     out.to_csv(stream, index=False)
     response = StreamingResponse(iter([stream.getvalue()]), media_type="text/csv")
-    response.headers[
-        "Content-Disposition"
-    ] = f"attachment; filename={model}_forecast.csv"
+    response.headers["Content-Disposition"] = (
+        f"attachment; filename={model}_forecast.csv"
+    )
     return response
 
 

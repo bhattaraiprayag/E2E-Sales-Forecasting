@@ -88,7 +88,7 @@ requires-dist = [
     { name = "kaleido", specifier = ">=0.2.1" },
     { name = "lightgbm", specifier = ">=4.3.0" },
     { name = "matplotlib", specifier = ">=3.8.0" },
-    { name = "numpy", specifier = ">=1.26.0,<2.0.0" },
+    { name = "numpy", specifier = ">=1.26.0,<3.0.0" },
     { name = "openpyxl", specifier = ">=3.1.0" },
     { name = "pandas", specifier = ">=2.2.0,<3.0.0" },
     { name = "plotly", specifier = ">=5.19.0" },

@@ -1,4 +1,4 @@
-# Sales Forecasting System — Production Ready
+# Sales Forecasting System
 
 This project implements a complete, production‑ready time‑series forecasting system featuring:
 - A FastAPI backend (Prophet, SARIMAX, LightGBM)
